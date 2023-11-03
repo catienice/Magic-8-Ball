@@ -1,0 +1,37 @@
+// Magic 8 Ball
+// build a Magic 8 Ball using Javascript
+// user can input questions and program will output random fortune
+
+userName = 'Drew';
+userQuestion = 'should we go to Snooze for breakfast'
+
+if(userName === '') {
+    console.log('Hello!');
+
+}else{
+     console.log(`Hello ${userName}!`)};
+
+console.log(`${userName} wants to know ${userQuestion}?`);
+
+randomNumber = Math.floor(Math.random() * 8);
+eightBall = '';
+
+if(randomNumber === 0){
+    console.log('It is certain');
+}else if (randomNumber === 1){
+    console.log('It is decidely so');
+}else if (randomNumber === 2){
+    console.log('Reply hazy try again');
+}else if (randomNumber === 3){
+    console.log('Cannot predict right now');
+}else if (randomNumber === 4){
+    console.log('Do not count on it');
+}else if (randomNumber === 5){
+    console.log('My sources say no');
+}else if (randomNumber === 6){
+    console.log('Outlook not so good');
+}else if (randomNumber === 7){
+    console.log('Signs point to yes');
+}else if (randomNumber === 8){
+    console.log('YAS QUEEN');
+}
